@@ -10,17 +10,20 @@ let powerPuffGirls = [
   {
     name: "Buttercup",
     img: "assets/buttercup.png",
-    class: "btn-buttercup"
+    class: "btn-buttercup",
+    hitColor: "hits-buttercup"
   },
   {
     name: "Bubbles",
     img: "assets/bubbles.png",
-    class: "btn-bubbles"
+    class: "btn-bubbles",
+    hitColor: "hits-bubbles"
   },
   {
     name: "Blossom",
     img: "assets/blossom.png",
-    class: "btn-blossom"
+    class: "btn-blossom",
+    hitColor: "hits-blossom"
   }
 ]
 let currentPowerPuff = powerPuffGirls[0]
@@ -117,6 +120,9 @@ function changePlayer(powerPuffIndex) {
 
   document.getElementById('playerHealth').classList.remove(currentPowerPuff.class)
   document.getElementById('playerHealth').classList.add(powerPuffGirls[powerPuffIndex].class)
+  document.getElementById('playerHits').classList.remove(currentPowerPuff.hitColor)
+  document.getElementById("playerHits").classList.add(powerPuffGirls[powerPuffIndex].hitColor)
+
 
   currentPowerPuff = powerPuffGirls[powerPuffIndex]
   document.getElementById('player-image').setAttribute('src', `${currentPowerPuff.img}`)

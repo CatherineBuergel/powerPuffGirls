@@ -36,9 +36,9 @@ h1, h4, h3{
 .name, #gameOver{
   color: #dc2c34;
 }
-#playerHits{
+/* #playerHits{
   color: #3ebe1f;
-}
+} */
 #opponentHits{
   color: #984976;
 }
@@ -70,4 +70,14 @@ h5 {
   color: white;
   text-shadow: 1px 1px black;
   
+}
+
+.hits-buttercup{
+  color: #3ebe1f;
+}
+.hits-bubbles{
+  color: #7ac0eb;
+}
+.hits-blossom {
+  color: #dc2c34;
 }
