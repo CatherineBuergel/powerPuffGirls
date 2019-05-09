@@ -15,7 +15,6 @@ body {
   background-color: #87b2e6;
   border: 2px solid black;
   width: 6vw;
-  
 }
 
 .buttons{
@@ -27,13 +26,48 @@ body {
 .mojoProgBar{
   background-color: #984976;
 }
-h1{
+h1, h4, h3{
   font-family: 'Modak', cursive;
   color:#f6b2c9;
   text-shadow: 1px 1px black;
   -webkit-text-stroke: 1px black;
   font-size: 3em;
 }
-.name{
-  color: #ef5640;
+.name, #gameOver{
+  color: #dc2c34;
+}
+#playerHits{
+  color: #3ebe1f;
+}
+#opponentHits{
+  color: #984976;
+}
+#smallerText{
+  font-size: 1em;
+}
+h5 {
+  font-family: 'Modak', cursive;
+    text-shadow: 1px 1px black;
+  -webkit-text-stroke: 1px black;
+  color:#f6b2c9;
+  
+}
+.changePlayer{
+  margin-top: 10%;
+}
+
+.btn-buttercup, #buttercup {
+  background-color: #3ebe1f;
+}
+.btn-bubbles, #bubbles {
+  background-color: #7ac0eb;
+}
+.btn-blossom, #blossom{
+  background-color: #dc2c34;
+}
+.btn {
+  border: 2px black solid;
+  color: white;
+  text-shadow: 1px 1px black;
+  
 }
