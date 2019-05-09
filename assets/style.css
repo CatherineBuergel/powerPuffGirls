@@ -1,0 +1,39 @@
+body {
+  background-image: url('bgImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.progress {
+  width: 30vw;
+  border: 2px solid black;
+}
+.btn-info{
+  background-color: #87b2e6;
+  border: 2px solid black;
+  width: 6vw;
+  
+}
+
+.buttons{
+  width: 30vw;
+}
+.players, .logo{
+  height: 30vh;
+}
+.mojoProgBar{
+  background-color: #984976;
+}
+h1{
+  font-family: 'Modak', cursive;
+  color:#f6b2c9;
+  text-shadow: 1px 1px black;
+  -webkit-text-stroke: 1px black;
+  font-size: 3em;
+}
+.name{
+  color: #ef5640;
+}
